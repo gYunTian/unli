@@ -581,7 +581,7 @@ class Unlimiformer(Generic[ModelType]):
                 v_proj_layer = [layers[1] for layers in attention_layer_list][self.cur_decoder_layer_index]
                 
                 print("Attntion layer list: ", type(attention_layer_list), attention_layer_list)
-                print("K proj layer: ", type(k_proj_layer) k_proj_layer)
+                print("K proj layer: ", type(k_proj_layer), k_proj_layer)
                 print("V proj layer: ", type(v_proj_layer), v_proj_layer)
 
                 # modify query by k_projs 
